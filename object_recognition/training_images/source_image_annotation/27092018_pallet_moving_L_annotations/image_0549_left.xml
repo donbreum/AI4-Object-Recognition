@@ -1,0 +1,34 @@
+<annotation>
+  <folder>images</folder>
+  <filename>image_0549_left.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>2592</width>
+    <height>2048</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pallet_moving_L</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1173</xmin>
+      <ymin>919</ymin>
+      <xmax>1482</xmax>
+      <ymax>1350</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>pallet_moving_L</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>680</xmin>
+      <ymin>756</ymin>
+      <xmax>897</xmax>
+      <ymax>1017</ymax>
+    </bndbox>
+  </object>
+</annotation>

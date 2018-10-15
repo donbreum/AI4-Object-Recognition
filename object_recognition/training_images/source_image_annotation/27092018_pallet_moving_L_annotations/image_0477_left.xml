@@ -1,0 +1,22 @@
+<annotation>
+  <folder>images</folder>
+  <filename>image_0477_left.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>2592</width>
+    <height>2048</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pallet_moving_L</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>698</xmin>
+      <ymin>746</ymin>
+      <xmax>897</xmax>
+      <ymax>1017</ymax>
+    </bndbox>
+  </object>
+</annotation>
