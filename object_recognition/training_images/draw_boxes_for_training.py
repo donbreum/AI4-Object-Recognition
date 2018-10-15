@@ -16,7 +16,7 @@ object_list = []
 # constants
 image_folder = 'temp_images'
 savedir = 'temp_annotations'
-obj = 'pallet_moving_L'
+obj = 'rockwool_batts'
 
 
 def line_select_callback(clk, rls):
