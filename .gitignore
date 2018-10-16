@@ -1,2 +1,6 @@
 *.pyc
 *.jpg
+.vscode/
+opencv/
+opencv_contrib/
+darkflow/
