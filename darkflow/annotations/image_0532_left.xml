@@ -1,0 +1,34 @@
+<annotation>
+  <folder>images</folder>
+  <filename>image_0532_left.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>2592</width>
+    <height>2048</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>903</xmin>
+      <ymin>957</ymin>
+      <xmax>1180</xmax>
+      <ymax>1479</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>689</xmin>
+      <ymin>746</ymin>
+      <xmax>890</xmax>
+      <ymax>1020</ymax>
+    </bndbox>
+  </object>
+</annotation>
