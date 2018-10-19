@@ -57,5 +57,9 @@ if __name__ == "__main__":
     for filepath in glob.iglob(xml_folder + '*.xml'):
         filename = filepath.split('/')[-1]
         
-        # print(filename)
-        convert_to_txt(filename, path_in=xml_folder, path_out=txt_folder)
+        try:
+            convert_to_txt(filename, path_in=xml_folder, path_out=txt_folder)
+        except Exception as e:
+            print("Conversion failed. Aborting.")
+            print(e)
+            break
