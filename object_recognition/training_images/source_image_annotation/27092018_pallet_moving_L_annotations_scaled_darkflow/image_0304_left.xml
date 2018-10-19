@@ -1,0 +1,22 @@
+<annotation>
+  <folder>images</folder>
+  <filename>image_0304_left.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>324</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>116</xmin>
+      <ymin>85</ymin>
+      <xmax>134</xmax>
+      <ymax>112</ymax>
+    </bndbox>
+  </object>
+</annotation>
