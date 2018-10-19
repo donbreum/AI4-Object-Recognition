@@ -1,0 +1,34 @@
+<annotation>
+  <folder>images</folder>
+  <filename>image_0486_left.jpg</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>324</width>
+    <height>256</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>85</xmin>
+      <ymin>93</ymin>
+      <xmax>112</xmax>
+      <ymax>127</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>217</xmin>
+      <ymin>203</ymin>
+      <xmax>282</xmax>
+      <ymax>255</ymax>
+    </bndbox>
+  </object>
+</annotation>
