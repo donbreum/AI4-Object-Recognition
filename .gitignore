@@ -1,7 +1,6 @@
 *.pyc
-*.jpg
+#*.jpg
 .vscode/
 opencv/
 opencv_contrib/
 darkflow/
-darknet/
