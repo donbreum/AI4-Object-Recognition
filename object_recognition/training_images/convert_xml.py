@@ -30,8 +30,8 @@ def convert_to_txt(filename, path_in, path_out):
     # print(obj_list[2]['xmin'])
 
     for obj in obj_list:
-        obj['x'] = int(obj['xmax'] + obj['xmin'] / 2)
-        obj['y'] = int(obj['ymax'] + obj['ymin'] / 2)
+        obj['x'] = int((obj['xmax'] + obj['xmin']) / 2)
+        obj['y'] = int((obj['ymax'] + obj['ymin']) / 2)
         obj['width'] = obj['xmax'] - obj['xmin']
         obj['height'] = obj['ymax'] - obj['ymin']
 
@@ -43,6 +43,7 @@ def convert_to_txt(filename, path_in, path_out):
             w = obj['width'] / float(width)
             h = obj['height'] / float(height)
             line = "0 {} {} {} {}\n".format(x, y, w, h)
+
             file.write(line)
 
 if __name__ == "__main__":
