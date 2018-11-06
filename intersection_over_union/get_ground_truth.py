@@ -27,10 +27,10 @@ class Box():
         self.xmax = np.asarray([],dtype=np.int32)
         self.ymax = np.asarray([],dtype=np.int32)
 
-def init():
-    annotation_path = sys.argv[1]
-    start_file_path = sys.argv[2]
-    end_file_path = sys.argv[3]
+def init(a_path, st_path, ef_path):
+    annotation_path = a_path
+    start_file_path = st_path
+    end_file_path = ef_path
     start_file = os.path.basename(start_file_path)
     end_file = os.path.basename(end_file_path)
     print("Annotation folder path: {0}".format(annotation_path))
@@ -77,21 +77,22 @@ def load_annotations(annotation_folder, start, end, file_collection):
                 box.ymax = boxes_file_t[i][4]   
                 annotation_file.boxes = np.append(annotation_file.boxes,box)
             file_collection.files = np.append(file_collection.files, annotation_file)
-            print("files append")
+            # print("files append")
         else:
             print("No annotations found in %s" % file_name)
         
-    import pdb; pdb.set_trace()
+    # import pdb; pdb.set_trace()
     boxes = boxes[1:]
-    print (boxes)
+    # print (boxes)
     
     print("finish load annotations")
 
-def run_get_ground_truth():
+def run_get_ground_truth(annotation_path, start_file_path, end_file_path):
     file_collection = AllAnnotations()
-    a_path, start_file, end_file = init()
+    a_path, start_file, end_file = init(annotation_path, start_file_path, end_file_path)
     load_annotations(a_path, start_file, end_file, file_collection)
-    
+    return file_collection
 
 if __name__=='__main__':
-    run_get_ground_truth()
+    pass
+    # run_get_ground_truth()

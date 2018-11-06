@@ -1,6 +1,6 @@
 <annotation>
   <folder>images</folder>
-  <filename>image_0850_left.jpg</filename>
+  <filename>image_1042_left.jpg</filename>
   <segmented>0</segmented>
   <size>
     <width>324</width>
@@ -13,9 +13,21 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
+      <xmin>128</xmin>
+      <ymin>96</ymin>
+      <xmax>154</xmax>
+      <ymax>133</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>rockwool_batts</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
       <xmin>88</xmin>
-      <ymin>103</ymin>
-      <xmax>121</xmax>
+      <ymin>102</ymin>
+      <xmax>119</xmax>
       <ymax>149</ymax>
     </bndbox>
   </object>
@@ -25,10 +37,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>85</xmin>
-      <ymin>93</ymin>
-      <xmax>109</xmax>
-      <ymax>120</ymax>
+      <xmin>86</xmin>
+      <ymin>91</ymin>
+      <xmax>107</xmax>
+      <ymax>111</ymax>
     </bndbox>
   </object>
 </annotation>
