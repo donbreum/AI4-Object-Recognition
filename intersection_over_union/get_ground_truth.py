@@ -33,9 +33,9 @@ def init(a_path, st_path, ef_path):
     end_file_path = ef_path
     start_file = os.path.basename(start_file_path)
     end_file = os.path.basename(end_file_path)
-    print("Annotation folder path: {0}".format(annotation_path))
-    print("Start file path: {0}".format(start_file))
-    print("End file path: {0}".format(end_file))
+    # print("Annotation folder path: {0}".format(annotation_path))
+    # print("Start file path: {0}".format(start_file))
+    # print("End file path: {0}".format(end_file))
     return annotation_path, start_file, end_file
 
 def load_annotations(annotation_folder, start, end, file_collection):
@@ -71,10 +71,10 @@ def load_annotations(annotation_folder, start, end, file_collection):
             for i in range(len(boxes_file_t)):
                 boxes = np.vstack((boxes, boxes_file_t[i]))   
                 box = Box()
-                box.xmin = boxes_file_t[i][1]
-                box.ymin = boxes_file_t[i][2]
-                box.xmax = boxes_file_t[i][3]
-                box.ymax = boxes_file_t[i][4]   
+                box.xmin = int(boxes_file_t[i][1])
+                box.ymin = int(boxes_file_t[i][2])
+                box.xmax = int(boxes_file_t[i][3])
+                box.ymax = int(boxes_file_t[i][4])   
                 annotation_file.boxes = np.append(annotation_file.boxes,box)
             file_collection.files = np.append(file_collection.files, annotation_file)
             # print("files append")
@@ -85,7 +85,7 @@ def load_annotations(annotation_folder, start, end, file_collection):
     boxes = boxes[1:]
     # print (boxes)
     
-    print("finish load annotations")
+    # print("finish load annotations")
 
 def run_get_ground_truth(annotation_path, start_file_path, end_file_path):
     file_collection = AllAnnotations()
