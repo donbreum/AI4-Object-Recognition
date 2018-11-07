@@ -23,6 +23,7 @@ class ResultFile():
 
 class Box():
     def __init__(self):
+        self.already_used = False
         self.xmin = np.asarray([],dtype=np.int32)
         self.ymin = np.asarray([],dtype=np.int32)
         self.xmax = np.asarray([],dtype=np.int32)
@@ -86,7 +87,7 @@ def run_get_results(result_file_path):
                     result_file.boxes = np.append(result_file.boxes, box)
                    
                 except:
-                    print("END OF FILE")
+                    # print("END OF FILE")
                     break
 
                 temp_idx += 1
