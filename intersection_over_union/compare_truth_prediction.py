@@ -142,7 +142,6 @@ def compare_truth_and_prediction():
     end_file_path = sys.argv[3]
     result_file_path = sys.argv[4]
     draw_images_path = sys.argv[5]
-    iou_threshold_t = float(sys.argv[6])
 
     iou_array = np.array([],dtype=float)
     recall_array = np.array([],dtype=float)
