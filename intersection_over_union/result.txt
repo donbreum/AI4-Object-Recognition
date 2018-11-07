@@ -150,6 +150,7 @@ RockwoolPallet: 84%	(left_x:  153   top_y:  112   width:   22   height:   43)
 Enter Image Path: /home/per/GIT/rock_images_anno/image_0939_left.jpg: Predicted in 0.000000 milli-seconds.
 RockwoolPallet: 78%	(left_x:   90   top_y:  136   width:   46   height:   61)
 RockwoolPallet: 74%	(left_x:   90   top_y:  106   width:   28   height:   35)
+RockwoolPallet: 74%	(left_x:   22   top_y:  80   width:   28   height:   35)
 Enter Image Path: /home/per/GIT/rock_images_anno/image_0466_left.jpg: Predicted in 0.000000 milli-seconds.
 RockwoolPallet: 99%	(left_x:   86   top_y:   95   width:   26   height:   31)
 Enter Image Path: /home/per/GIT/rock_images_anno/image_0096_left.jpg: Predicted in 0.000000 milli-seconds.
@@ -192,6 +193,8 @@ Enter Image Path: /home/per/GIT/rock_images_anno/image_1042_left.jpg: Predicted 
 RockwoolPallet: 25%	(left_x:   87   top_y:   92   width:   23   height:   27)
 RockwoolPallet: 98%	(left_x:   92   top_y:  106   width:   26   height:   40)
 RockwoolPallet: 100%	(left_x:  131   top_y:   97   width:   25   height:   34)
+RockwoolPallet: 10%	(left_x:  111   top_y:   30   width:   40   height:   24)
+RockwoolPallet: 10%	(left_x:  2   top_y:   30   width:   20   height:   14)
 Enter Image Path: /home/per/GIT/rock_images_anno/image_0541_left.jpg: Predicted in 0.000000 milli-seconds.
 RockwoolPallet: 99%	(left_x:   86   top_y:   95   width:   26   height:   30)
 RockwoolPallet: 90%	(left_x:  143   top_y:  121   width:   37   height:   52)
