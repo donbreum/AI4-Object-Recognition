@@ -17,8 +17,8 @@ darknet_rel_path_static = "../object_recognition/training_images/source_images/s
 # Populate train.txt and test.txt
 counter = 1  
 index_test = round(100 / percentage_test)  
-# for pathAndFilename in glob.iglob(os.path.join(current_dir + txt_folder, "*.txt")):  
-for pathAndFilename in glob.iglob(os.path.join(dji_path, "*.jpg")): 
+# look for images with an associated txt file 
+for pathAndFilename in glob.iglob(os.path.join(dji_path, "*.txt")): 
     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
     if counter == index_test:
         counter = 1
