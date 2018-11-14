@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<annotation>
+<folder>data</folder>
+<filename>DJI_0011 0461.jpg</filename>
+<path/>
+<source>
+<database>Unknown</database>
+</source>
+<size>
+<width>480</width>
+<height>270</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>RockwoolPallet</name>
+<pose>Unspecified</pose>
+<truncated>0</truncated>
+<occluded>0</occluded>
+<difficult>0</difficult>
+<bndbox>
+<xmin>244</xmin>
+<ymin>110</ymin>
+<xmax>255</xmax>
+<ymax>131</ymax>
+</bndbox>
+<bndbox>
+<xmin>211</xmin>
+<ymin>217</ymin>
+<xmax>238</xmax>
+<ymax>255</ymax>
+</bndbox>
+</object>
+</annotation>
