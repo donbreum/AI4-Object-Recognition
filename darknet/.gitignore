@@ -13,6 +13,7 @@ opencv/
 convnet/
 decaf/
 submission/
+backup/
 #cfg/
 build/darknet/*
 !build/darknet/YoloWrapper.cs
