@@ -857,7 +857,7 @@ void validate_detector_map(char *datacfg, char *cfgfile, char *weightfile, float
                     }
                 }
             }
-            //printf("class_id = %d, point = %d, cur_recall = %.4f, cur_precision = %.4f \n", i, point, cur_recall, cur_precision);
+            // printf("class_id = %d, point = %d, cur_recall = %.4f, cur_precision = %.4f \n", i, point, cur_recall, cur_precision);
 
             avg_precision += cur_precision;
         }
@@ -875,6 +875,26 @@ void validate_detector_map(char *datacfg, char *cfgfile, char *weightfile, float
     printf(" for thresh = %0.2f, TP = %d, FP = %d, FN = %d, average IoU = %2.2f %% \n",
         thresh_calc_avg_iou, tp_for_thresh, fp_for_thresh, unique_truth_count - tp_for_thresh, avg_iou * 100);
 
+    char buff[1024];
+    FILE* fw = fopen("results.txt", "ab");
+    if (fw) {
+        sprintf(buff, "%1.2f, %1.2f, %1.2f, %1.2f, %d, %d, %d, %2.2f, dummy_name\n",
+        thresh_calc_avg_iou, cur_precision, cur_recall, f1_score, tp_for_thresh, fp_for_thresh, unique_truth_count - tp_for_thresh, avg_iou * 100);
+        fwrite(buff, sizeof(char), strlen(buff), fw);
+    }
+    printf("\n");
+    fclose(fw);
+
+
+    fw = fopen("thresholds.txt", "ab");
+    if (fw) {
+        sprintf(buff, "%1.2f, %1.2f, %1.2f, %1.2f, %d, %d, %d, %2.2f\n",
+        thresh_calc_avg_iou, cur_precision, cur_recall, f1_score, tp_for_thresh, fp_for_thresh, unique_truth_count - tp_for_thresh, avg_iou * 100);
+        fwrite(buff, sizeof(char), strlen(buff), fw);
+    }
+    printf("\n");
+    fclose(fw);
+    
     mean_average_precision = mean_average_precision / classes;
     printf("\n mean average precision (mAP) = %f, or %2.2f %% \n", mean_average_precision, mean_average_precision*100);
 
