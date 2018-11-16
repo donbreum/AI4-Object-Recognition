@@ -9,7 +9,7 @@ def append_name(weight_name, file_name):
     with open(file_name, 'r') as fi:
         lines = fi.readlines()
         last_line = lines[-1] #.split(",")'
-        index = last_line.find("dummy")
+        index = last_line.find("dummy_name")
 
         output_line = last_line[:index] + weight_name + last_line[index+5:] + "\n"
         
