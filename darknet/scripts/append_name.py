@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from pathlib import Path
-import os
+# from pathlib import Path
+# import os
 import sys
 
 def append_name(weight_name, file_name):
