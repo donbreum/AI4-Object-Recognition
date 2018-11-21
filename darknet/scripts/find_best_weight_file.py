@@ -5,7 +5,7 @@ import os
 import shutil
 import datetime
 
-RECALL_IDX = 3
+RECALL_IDX = 2
 NAME_IDX = 5
 
 def find_best(path_weight_files, result_file, structure_run, final_path_weight_files):
@@ -28,12 +28,17 @@ def find_best(path_weight_files, result_file, structure_run, final_path_weight_f
         + str(now.day) + "_" + str(now.hour) + "_" + str(now.minute))
 
     old_file = path_weight_files + final_weight_name
-    new_file = path_weight_files + datetime_stamp + "_" + structure_run + "_best_weight_" + final_weight_name
+    new_file = datetime_stamp + "_best_weight_" + final_weight_name
     
-    os.rename(old_file, new_file)
+    # os.rename(old_file, new_file)
 
-    shutil.move(new_file, final_path_weight_files + "/" + new_file)
-    import pdb;pdb.set_trace()
+    print(final_weight_name)
+
+    sys.exit(0)
+    # shutil.move(new_file, final_path_weight_files + "/" + new_file)
+
+
+    # import pdb;pdb.set_trace()
    
 
 if __name__=='__main__':
