@@ -3,6 +3,8 @@ import cv2
 import numpy as np
 import os
 import sys
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 THRESHOLD = 0
@@ -19,7 +21,7 @@ def save_figures(iou_array, recall_array, precision_array, model_name, display=F
     plt.xlabel("Intersection over union threshold")
     plt.xlim(0.5, 1)
     plt.ylim(0, 1)
-    plt.savefig(model_name + "recall_vs_iou.png")
+    plt.savefig(model_name + "_recall_vs_iou.png")
 
     # plt.show()
     # import pdb;pdb.set_trace()
@@ -42,8 +44,8 @@ def save_figures(iou_array, recall_array, precision_array, model_name, display=F
     # plt.ylim(0, 1)
     # plt.savefig("precision_vs_iou.png")
 
-    if display:
-        plt.show()
+#     if display:
+#         plt.show()
 
 def load_threshold_file(file_path):
 
