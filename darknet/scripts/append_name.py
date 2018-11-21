@@ -7,7 +7,6 @@ import sys
 def append_name(weight_name, file_name):
     lines_out = ""
     with open(file_name, 'r') as fi:
-        # lines = fi.read().splitlines() 
         lines = fi.readlines()
         last_line = lines[-1] #.split(",")'
         index = last_line.find("dummy_name")
