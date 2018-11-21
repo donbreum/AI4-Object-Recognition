@@ -19,6 +19,8 @@ build/darknet/*
 !build/darknet/YoloWrapper.cs
 .fuse*
 
+darknet
+
 # OS Generated #
 .DS_Store*
 ehthumbs.db
