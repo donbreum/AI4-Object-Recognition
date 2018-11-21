@@ -12,6 +12,9 @@ while [ "$1" != "" ]; do
         -w | --weights )	shift
 				weights=$1
 				;;
+        -s | --structure )	shift
+				structure=$1
+				;;
         * )                     
     esac
     shift
@@ -28,9 +31,12 @@ dummy=dummy
 for filename in $weights_folder/*.weights; do
 	[ -e "$filename" ] || continue
 
-	./darknet detector map cfg/$datafile cfg/$cfgfile $filename
+	filename=$(basename $filename)
+	
+	./darknet detector map cfg/$datafile cfg/$cfgfile backup/$filename
 	dummy=$filename
-	# python script here
+	
+	python3 scripts/append_name.py $filename results.txt 
 done
 
 # delete the thresholds that were generated above
