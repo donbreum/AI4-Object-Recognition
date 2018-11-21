@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/per/GIT/rock_images_anno/image_0902_left.jpg
 /home/per/GIT/rock_images_anno/image_0186_left.jpg
 /home/per/GIT/rock_images_anno/image_0690_left.jpg
@@ -98,3 +99,258 @@
 /home/per/GIT/rock_images_anno/image_0253_left.jpg
 /home/per/GIT/rock_images_anno/image_0667_left.jpg
 /home/per/GIT/rock_images_anno/image_0514_left.jpg
+=======
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0495.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0239.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0097.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0808.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0489.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0999.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0364.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0117.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0111.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0126.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0624.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0956.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0218.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0830.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0297.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0972.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0155.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0355.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0562.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0290.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0427.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0832.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0053.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0701.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0150.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0852.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0736.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0204.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0436.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0804.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0444.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0697.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0833.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0815.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0385.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0630.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0922.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0790.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0259.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0475.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0467.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0499.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0642.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0111.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0314.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0648.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0234.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0248.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0863.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0100.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0674.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0346.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0651.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0758.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0683.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0227.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0347.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0024.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0039.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0009.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0249.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0581.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0075.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0074.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0133.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0850.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0247.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0351.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0037.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0707.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0435.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0520.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0316.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0469.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0743.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0558.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0646.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0881.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0240.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0202.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0423.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0256.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0391.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0967.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0464.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0565.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0463.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0596.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0167.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0123.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0249.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0483.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0242.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0417.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0149.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0076.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0867.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0304.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0081.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0093.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0634.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0319.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0155.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0145.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0241.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0013.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0098.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0984.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0113.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0574.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0245.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0661.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0727.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0954.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0802.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0056.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0040.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0358.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0222.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0065.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0327.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0793.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0985.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0246.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0459.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0430.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0241.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0788.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0915.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0419.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0199.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0414.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0307.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0401.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0208.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0089.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0315.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0451.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0189.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0390.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0011.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0333.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0903.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0122.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0217.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0250.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0011 0531.jpg
+../object_recognition/training_images/source_images/dji/samlet/DJI_0012 0103.jpg
+../object_recognition/training_images/source_images/static/image_0460_left.jpg
+../object_recognition/training_images/source_images/static/image_0191_left.jpg
+../object_recognition/training_images/source_images/static/image_0776_left.jpg
+../object_recognition/training_images/source_images/static/image_0790_left.jpg
+../object_recognition/training_images/source_images/static/image_0817_left.jpg
+../object_recognition/training_images/source_images/static/image_0495_left.jpg
+../object_recognition/training_images/source_images/static/image_0858_left.jpg
+../object_recognition/training_images/source_images/static/image_0276_left.jpg
+../object_recognition/training_images/source_images/static/image_0464_left.jpg
+../object_recognition/training_images/source_images/static/image_0437_left.jpg
+../object_recognition/training_images/source_images/static/image_0182_left.jpg
+../object_recognition/training_images/source_images/static/image_0085_left.jpg
+../object_recognition/training_images/source_images/static/image_0040_left.jpg
+../object_recognition/training_images/source_images/static/image_0272_left.jpg
+../object_recognition/training_images/source_images/static/image_0865_left.jpg
+../object_recognition/training_images/source_images/static/image_0658_left.jpg
+../object_recognition/training_images/source_images/static/image_0613_left.jpg
+../object_recognition/training_images/source_images/static/image_0330_left.jpg
+../object_recognition/training_images/source_images/static/image_0692_left.jpg
+../object_recognition/training_images/source_images/static/image_0832_left.jpg
+../object_recognition/training_images/source_images/static/image_0683_left.jpg
+../object_recognition/training_images/source_images/static/image_0694_left.jpg
+../object_recognition/training_images/source_images/static/image_0807_left.jpg
+../object_recognition/training_images/source_images/static/image_0271_left.jpg
+../object_recognition/training_images/source_images/static/image_0331_left.jpg
+../object_recognition/training_images/source_images/static/image_0463_left.jpg
+../object_recognition/training_images/source_images/static/image_0078_left.jpg
+../object_recognition/training_images/source_images/static/image_0159_left.jpg
+../object_recognition/training_images/source_images/static/image_0916_left.jpg
+../object_recognition/training_images/source_images/static/image_1000_left.jpg
+../object_recognition/training_images/source_images/static/image_0904_left.jpg
+../object_recognition/training_images/source_images/static/image_0369_left.jpg
+../object_recognition/training_images/source_images/static/image_0118_left.jpg
+../object_recognition/training_images/source_images/static/image_0214_left.jpg
+../object_recognition/training_images/source_images/static/image_0360_left.jpg
+../object_recognition/training_images/source_images/static/image_0872_left.jpg
+../object_recognition/training_images/source_images/static/image_0177_left.jpg
+../object_recognition/training_images/source_images/static/image_0149_left.jpg
+../object_recognition/training_images/source_images/static/image_0462_left.jpg
+../object_recognition/training_images/source_images/static/image_0240_left.jpg
+../object_recognition/training_images/source_images/static/image_0366_left.jpg
+../object_recognition/training_images/source_images/static/image_0452_left.jpg
+../object_recognition/training_images/source_images/static/image_0803_left.jpg
+../object_recognition/training_images/source_images/static/image_0584_left.jpg
+../object_recognition/training_images/source_images/static/image_0975_left.jpg
+../object_recognition/training_images/source_images/static/image_0820_left.jpg
+../object_recognition/training_images/source_images/static/image_0671_left.jpg
+../object_recognition/training_images/source_images/static/image_0521_left.jpg
+../object_recognition/training_images/source_images/static/image_0268_left.jpg
+../object_recognition/training_images/source_images/static/image_0929_left.jpg
+../object_recognition/training_images/source_images/static/image_0056_left.jpg
+../object_recognition/training_images/source_images/static/image_0144_left.jpg
+../object_recognition/training_images/source_images/static/image_0960_left.jpg
+../object_recognition/training_images/source_images/static/image_0837_left.jpg
+../object_recognition/training_images/source_images/static/image_0822_left.jpg
+../object_recognition/training_images/source_images/static/image_0690_left.jpg
+../object_recognition/training_images/source_images/static/image_0615_left.jpg
+../object_recognition/training_images/source_images/static/image_0884_left.jpg
+../object_recognition/training_images/source_images/static/image_0631_left.jpg
+../object_recognition/training_images/source_images/static/image_0279_left.jpg
+../object_recognition/training_images/source_images/static/image_0122_left.jpg
+../object_recognition/training_images/source_images/static/image_0136_left.jpg
+../object_recognition/training_images/source_images/static/image_0456_left.jpg
+../object_recognition/training_images/source_images/static/image_0988_left.jpg
+../object_recognition/training_images/source_images/static/image_0179_left.jpg
+../object_recognition/training_images/source_images/static/image_0958_left.jpg
+../object_recognition/training_images/source_images/static/image_0470_left.jpg
+../object_recognition/training_images/source_images/static/image_0785_left.jpg
+../object_recognition/training_images/source_images/static/image_0290_left.jpg
+../object_recognition/training_images/source_images/static/image_0670_left.jpg
+../object_recognition/training_images/source_images/static/image_0733_left.jpg
+../object_recognition/training_images/source_images/static/image_0620_left.jpg
+../object_recognition/training_images/source_images/static/image_0026_left.jpg
+../object_recognition/training_images/source_images/static/image_0526_left.jpg
+../object_recognition/training_images/source_images/static/image_0843_left.jpg
+../object_recognition/training_images/source_images/static/image_0292_left.jpg
+../object_recognition/training_images/source_images/static/image_0071_left.jpg
+../object_recognition/training_images/source_images/static/image_0383_left.jpg
+../object_recognition/training_images/source_images/static/image_0527_left.jpg
+../object_recognition/training_images/source_images/static/image_0066_left.jpg
+../object_recognition/training_images/source_images/static/image_0991_left.jpg
+../object_recognition/training_images/source_images/static/image_0724_left.jpg
+../object_recognition/training_images/source_images/static/image_0751_left.jpg
+../object_recognition/training_images/source_images/static/image_0208_left.jpg
+../object_recognition/training_images/source_images/static/image_0711_left.jpg
+../object_recognition/training_images/source_images/static/image_0138_left.jpg
+../object_recognition/training_images/source_images/static/image_0718_left.jpg
+../object_recognition/training_images/source_images/static/image_0248_left.jpg
+../object_recognition/training_images/source_images/static/image_0063_left.jpg
+../object_recognition/training_images/source_images/static/image_0487_left.jpg
+../object_recognition/training_images/source_images/static/image_0137_left.jpg
+../object_recognition/training_images/source_images/static/image_0866_left.jpg
+../object_recognition/training_images/source_images/static/image_0498_left.jpg
+../object_recognition/training_images/source_images/static/image_0333_left.jpg
+../object_recognition/training_images/source_images/static/image_0516_left.jpg
+../object_recognition/training_images/source_images/static/image_0275_left.jpg
+../object_recognition/training_images/source_images/static/image_0528_left.jpg
+../object_recognition/training_images/source_images/static/image_0894_left.jpg
+../object_recognition/training_images/source_images/static/image_0426_left.jpg
+../object_recognition/training_images/source_images/static/image_0244_left.jpg
+../object_recognition/training_images/source_images/static/image_0158_left.jpg
+../object_recognition/training_images/source_images/static/image_0465_left.jpg
+../object_recognition/training_images/source_images/static/image_0364_left.jpg
+../object_recognition/training_images/source_images/static/image_0115_left.jpg
+../object_recognition/training_images/source_images/static/image_0850_left.jpg
+>>>>>>> master
