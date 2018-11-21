@@ -20,6 +20,8 @@ build/darknet/*
 .fuse*
 
 darknet
+results.txt
+thresholds.txt
 
 # OS Generated #
 .DS_Store*
