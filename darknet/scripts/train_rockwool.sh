@@ -3,15 +3,15 @@
 # Parse the arguments
 while [ "$1" != "" ]; do
     case $1 in
-        -d | --datafile )        shift
+        -d | --datafile )       shift
                                 datafile=$1
                                 ;;
-        -c | --cfgfile )	shift
-				cfgfile=$1
+        -c | --cfgfile )		shift
+								cfgfile=$1
                                 ;;
-        -w | --weights )	shift
-				weights=$1
-				;;
+        -w | --weights )		shift
+								weights=$1
+								;;
         * )                     
     esac
     shift
@@ -23,14 +23,21 @@ cd ..
 #./darknet detector train cfg/$datafile cfg/$cfgfile $weights -dont_show
 
 weights_folder=backup
-dummy=dummy
+final_results_folder=final_results
+model="${cfgfile%.*}"
+
+if [ -e results.txt ]; then
+	rm results.txt
+fi
 
 for filename in $weights_folder/*.weights; do
 	[ -e "$filename" ] || continue
 
-	./darknet detector map cfg/$datafile cfg/$cfgfile $filename
-	dummy=$filename
-	# python script here
+	filename=$(basename $filename)
+	
+	./darknet detector map cfg/$datafile cfg/$cfgfile backup/$filename
+
+	python3 scripts/append_name.py $filename results.txt 
 done
 
 # delete the thresholds that were generated above
@@ -38,11 +45,28 @@ if [ -e thresholds.txt ]; then
 	rm thresholds.txt
 fi
 
-# find weights file with lowest recall score
+if [ ! -d $final_results_folder ]; then
+	mkdir $final_results_folder
+fi
 
-best_weight=$dummy
+# find weights file with lowest recall score and return filename
+name=$(python3 scripts/find_best_weight_file.py backup/ results.txt $model final_results_folder)
+best_weight=$(date +%y%m%d)_$name
+no_extension="${best_weight%.*}"
 
-for thresh_val in $(seq 0.5 0.01 0.99); do
-	
-	./darknet detector map cfg/$datafile cfg/$cfgfile $best_weight -thresh $thresh_val
+cp $weights_folder/$name $final_results_folder/$best_weight
+
+echo "Moving results to "$final_results_folder/$no_extension"_results.txt"
+mv results.txt $final_results_folder/$no_extension"_results.txt"
+
+for thresh_val in $(seq 0.5 0.01 0.99); do	
+	./darknet detector map cfg/$datafile cfg/$cfgfile $final_results_folder/$best_weight -thresh $thresh_val
 done
+
+echo "Moving thresholds to "$final_results_folder/$no_extension"_thresholds.txt"
+mv thresholds.txt $final_results_folder/$no_extension"_thresholds.txt"
+
+python3 scripts/plot_threshold_results.py $final_results_folder/$no_extension"_thresholds.txt" $model
+
+echo "Exporting graph to "$final_results_folder/$(date +%y%m%d)_$model"_recall_vs_iou.png"
+mv $model"_recall_vs_iou.png" $final_results_folder/$(date +%y%m%d)_$model"_recall_vs_iou.png"
