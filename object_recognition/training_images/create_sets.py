@@ -18,21 +18,28 @@ darknet_rel_path_static = "../object_recognition/training_images/source_images/s
 counter = 1  
 index_test = round(100 / percentage_test)  
 # look for images with an associated txt file 
-for pathAndFilename in glob.iglob(os.path.join(dji_path, "*.txt")): 
-    title, ext = os.path.splitext(os.path.basename(pathAndFilename))
-    if counter == index_test:
-        counter = 1
-        file_test.write(darknet_rel_path_dji + title + '.jpg' + "\n")
-    else:
-        file_train.write(darknet_rel_path_dji + title + '.jpg' + "\n")
-        counter = counter + 1
+# for pathAndFilename in glob.iglob(os.path.join(dji_path, "*.txt")): 
+#     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
+#     if counter == index_test:
+#         counter = 1
+#         # file_test.write(darknet_rel_path_dji + title + '.jpg' + "\n")
+#     else:
+#         # file_train.write(darknet_rel_path_dji + title + '.jpg' + "\n")
+#         counter = counter + 1
 
-for pathAndFilename in glob.iglob(os.path.join(static_path, "*.txt")): 
+# for pathAndFilename in glob.iglob(os.path.join(static_path, "*.txt")): 
+#     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
+#     if counter == index_test:
+#         counter = 1
+#         # file_test.write(darknet_rel_path_static + title + '.jpg' + "\n")
+#     else:
+#         # file_train.write(darknet_rel_path_static + title + '.jpg' + "\n")
+#         counter = counter + 1
+ 
+testing_path = current_dir + "/source_images/testing/"
+darknet_rel_path_testing = "../object_recognition/training_images/source_images/testing/"
+print(testing_path)
+for pathAndFilename in glob.iglob(os.path.join(testing_path, "*.txt")):
+    print("WUT") 
     title, ext = os.path.splitext(os.path.basename(pathAndFilename))
-    if counter == index_test:
-        counter = 1
-        file_test.write(darknet_rel_path_static + title + '.jpg' + "\n")
-    else:
-        file_train.write(darknet_rel_path_static + title + '.jpg' + "\n")
-        counter = counter + 1
-        
+    file_test.write(darknet_rel_path_testing + title + '.jpeg' + "\n")
