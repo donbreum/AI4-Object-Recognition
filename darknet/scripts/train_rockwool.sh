@@ -20,7 +20,9 @@ done
 cd ..
 
 #../darknet detector train ../cfg/rockwool.data ../cfg/rockwool-yolov3-tiny.cfg ../rockwool-yolov3-tiny_1500.weights
+
 ./darknet detector train cfg/$datafile cfg/$cfgfile $weights -dont_show
+
 
 weights_folder=backup
 final_results_folder=final_results
@@ -69,4 +71,6 @@ mv thresholds.txt $final_results_folder/$no_extension"_thresholds.txt"
 python3 scripts/plot_threshold_results.py $final_results_folder/$no_extension"_thresholds.txt" $model
 
 echo "Exporting graph to "$final_results_folder/$(date +%y%m%d)_$model"_recall_vs_iou.png"
+
 mv $model"_recall_vs_iou.png" $final_results_folder/$(date +%y%m%d)_$model"_recall_vs_iou.png"
+
