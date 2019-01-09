@@ -21,8 +21,7 @@ cd ..
 
 #../darknet detector train ../cfg/rockwool.data ../cfg/rockwool-yolov3-tiny.cfg ../rockwool-yolov3-tiny_1500.weights
 
-./darknet detector train cfg/$datafile cfg/$cfgfile weights/$weights -dont_show
-
+./darknet detector train cfg/$datafile cfg/$cfgfile $weights -dont_show
 
 weights_folder=backup
 final_results_folder=final_results
