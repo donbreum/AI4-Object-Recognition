@@ -23,6 +23,7 @@ build/darknet/*
 darknet
 results.txt
 thresholds.txt
+*.weights
 
 # OS Generated #
 .DS_Store*
