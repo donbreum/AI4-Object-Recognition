@@ -1,5 +1,7 @@
 #!/bin/bash
 
+start_time=$SECONDS
+
 # Parse the arguments
 while [ "$1" != "" ]; do
     case $1 in
@@ -21,7 +23,7 @@ cd ..
 
 #../darknet detector train ../cfg/rockwool.data ../cfg/rockwool-yolov3-tiny.cfg ../rockwool-yolov3-tiny_1500.weights
 
-./darknet detector train cfg/$datafile cfg/$cfgfile $weights -dont_show
+./darknet detector train cfg/$datafile cfg/$cfgfile weights/$weights -dont_show
 
 weights_folder=backup
 final_results_folder=final_results
@@ -73,3 +75,13 @@ echo "Exporting graph to "$final_results_folder/$(date +%y%m%d)_$model"_recall_v
 
 mv $model"_recall_vs_iou.png" $final_results_folder/$(date +%y%m%d)_$model"_recall_vs_iou.png"
 
+rm $weights_folder/*
+
+finish_time=$SECONDS
+duration=$(expr $finish_time - $start_time)
+hours=$(expr $duration / 3600)
+remaining=$(expr $duration % 3600)
+minutes=$(expr $remaining / 60)
+seconds=$(expr $remaining % 60)
+
+echo "This script took $hours:$minutes:$seconds"
