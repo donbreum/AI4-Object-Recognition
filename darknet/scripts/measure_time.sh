@@ -38,7 +38,7 @@ get_recall()
     echo $weightsfile
 	no_extension="${cfgfile%.*}"
 
-    ./darknet detector map cfg/rockwool.data cfg/$cfgfile final_results/$weightsfile 
+    ./darknet detector map cfg/rockwool.data cfg/$cfgfile final_results/$weightsfile
 
     mv thresholds.txt final_results/times/$no_extension"_recall.txt"
 }
