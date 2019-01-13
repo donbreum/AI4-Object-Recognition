@@ -1181,6 +1181,15 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         double prediction_time = what_time_is_it_now()-ts;
         printf("%s: Predicted in %f seconds.\n", input, prediction_time);
 
+        char buff[1024];
+        FILE* fw = fopen("times.txt", "ab");
+        if (fw) {
+            sprintf(buff, "%f \n", prediction_time);
+            fwrite(buff, sizeof(char), strlen(buff), fw);
+        }
+        printf("\n");
+        fclose(fw);
+
         int nboxes = 0;
         detection *dets = get_network_boxes(&net, im.w, im.h, thresh, hier_thresh, 0, 1, &nboxes, letterbox);
         if (nms) do_nms_sort(dets, nboxes, l.classes, nms);

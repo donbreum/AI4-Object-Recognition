@@ -1,0 +1,25 @@
+../object_recognition/training_images/source_images/new_downsampled/image_0201_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0719.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0377.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0691.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0043.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0260.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0594.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0749.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0012 0350.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0741.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0398.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0332_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_1043_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0638.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0516_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0010.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0290.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0561_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0371_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0006.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0650_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/image_0637_left.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0031.jpg
+../object_recognition/training_images/source_images/new_downsampled/IMG_1707.jpg
+../object_recognition/training_images/source_images/new_downsampled/DJI_0011 0907.jpg
